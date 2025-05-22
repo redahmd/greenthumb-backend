@@ -27,13 +27,13 @@ npm install express mongoose cors dotenv express-session passport swagger-ui-exp
 Créez un fichier .env à la racine du projet contenant les variables d’environnement suivantes (adaptez les valeurs si besoin) :
 
 PORT=5000
-MONGO_URI=mongodb+srv://greenthumb-auth:Green123@cluster0.z8za4gp.mongodb.net/greenthumb
+MONGO_URI=mongodb+srv://<user>:<password>@cluster0.z8za4gp.mongodb.net/greenthumb
 GOOGLE_CALLBACK_URL=http://localhost:5000/api/auth/social/google/callback
-GOOGLE_CLIENT_ID=80807103973-4h033u4fjjjpctrjs0uonkucvg83phv6.apps.googleusercontent.com
-GOOGLE_CLIENT_SECRET=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
+GOOGLE_CLIENT_ID=.
+GOOGLE_CLIENT_SECRET=.
 FACEBOOK_CALLBACK_URL=http://localhost:5000/api/auth/social/facebook/callback
-FACEBOOK_CLIENT_ID=1419328722567697
-FACEBOOK_CLIENT_SECRET=5a2bc8e48000aa549e0b894370a4bf31
+FACEBOOK_CLIENT_ID=.
+FACEBOOK_CLIENT_SECRET=.
 SESSION_SECRET=greenthumb-secret
 EMAIL_HOST=smtp.ethereal.email
 EMAIL_PORT=587
